@@ -1,0 +1,16 @@
+
+table{
+	border-collapse: collapse;
+}
+th{
+	text-align: right;
+}
+td{
+	text-align: right;
+}
+.td{
+	text-align: left;
+}
+#test1, #test2, #test3, #test4, #test5, #test6, #test7 {
+	text-indent: 15px;
+}

@@ -13,8 +13,36 @@
 	background: gray;
 
 }
-.tutorials:hover{
+.boxtutorials:hover{
 	background: red;
 	font-family: Arial;
+}
+.testsupport:hover{
+	background: yellow;
+	 transform: rotate(90deg);
+	 transition-timing-function: ease-in;
+	 box-shadow: 50px 40px 5px 0px rgba(161,5,161,1);
+}
+.testsupport{
+	width: 230px;
+  	height: 230px;
+  	transition: width 3s, height 3s, transform 3s;
+
+}
+.cheatsheet:hover{
+	background: red;
+	transition-delay: 2s;
+	transition-timing-function: ease-in;
+	transition-property: height; 
+	height: 200px;
+}
+.content{
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+}
+.cheat{
+	text-shadow: 5px 4px black;
+	color:white;
 }
 
