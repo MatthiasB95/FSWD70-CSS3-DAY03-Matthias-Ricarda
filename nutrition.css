@@ -1,12 +1,9 @@
-div {
-	width: 300px;
-}
 
-.table {
-	col width: 20px;
-}
+
+
 table{
 	border-collapse: collapse;
+
 }
 th{
 	text-align: right;
@@ -19,4 +16,17 @@ td{
 }
 #test1, #test2, #test3, #test4, #test5, #test6, #test7 {
 	text-indent: 15px;
+}
+.hr{
+	height: 15px;
+	background: black;
+}
+#hr2{
+	height: 5px;
+	background: black;
+}
+#border{
+	border: 1px solid;
+	padding: 0em 0.5em 0.5em 0.5em;
+	width: 500px;
 }
