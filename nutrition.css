@@ -1,10 +1,4 @@
 
-
-
-table{
-	border-collapse: collapse;
-
-}
 th{
 	text-align: right;
 }
@@ -29,4 +23,15 @@ td{
 	border: 1px solid;
 	padding: 0em 0.5em 0.5em 0.5em;
 	width: 500px;
+	font-size: 1em;
 }
+#bottom{
+	text-align: center;
+}
+h1{
+	margin: 0px;
+}
+h4{
+	margin:0px;
+}
+

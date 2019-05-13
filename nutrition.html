@@ -7,16 +7,16 @@
 <body>
 <div id="border">
 	<h1>Nutrition Facts</h1>
-	<h3>Serving Size 1 cup (50g)</h3>
-	<h3>Servings Per Container 10</h3>
+	<h4>Serving Size 1 cup (50g)</h4>
+	<h4>Servings Per Container 10</h4>
 	<hr class="hr">
-	<table style="border-collapse: separate; border-spacing: 10px 0px;" class="table1">
+	<table style="border-collapse: collapse; border-spacing: 8px 0px;width: 100%" class="table1">
 		<colgroup>
 			<col width="70%">
 			<col width="15%">
 			<col width="15%">
 		</colgroup>
-		<tr style="border-bottom: 1px solid black">
+		<tr style="border-bottom: 1px solid black; vertical-align: bottom;">
 			<th class="td">Amount Per Serving</th>
 			<th>Cereal</th>
 			<th>with 1/2<br> cup 1% <br>milk</th>
@@ -35,7 +35,7 @@
 
 	<hr id="hr2">
 
-	<table style="border-collapse: collapse;" class="table2">
+	<table style="border-collapse: collapse; width:100%"; class="table2">
 		<colgroup>
 			<col width="70%">
 			<col width="15%">
@@ -43,9 +43,9 @@
 		</colgroup>
 
 		<tr style="border-bottom: 1px solid black">
-			<td class="td">   </td>
-			<td>%Daily</td>
-			<td>Value**</td>
+			<th class="td"></th>
+			<th>%Daily</th>
+			<th>Value**</th>
 		</tr>
 
 		<tr style="border-bottom: 1px solid black">
@@ -106,11 +106,11 @@
 	
 	<hr class="hr">
 
-	<table class="table3" style="border-collapse: collapse;">
+	<table class="table3" style="border-collapse: collapse; width: 100%">
 		<colgroup>
-			<col width="300">
-			<col width="80">
-			<col width="80">
+			<col width="70%">
+			<col width="15%">
+			<col width="15%">
 		</colgroup>
 		<tr>
 			<td class="td">Vitamin A</td>
@@ -134,11 +134,13 @@
 		</tr>
 	</table>
 	<hr>
-	<table class="table4">
-		<tr>*Amount in cereal with 1/2 cup 1% milk contributes an additional 60 Calories (10 Calories from Fat), 1 g Total Fat (1 g Saturated Fat), 10 mg Cholesterol, 70 mg Sodium, 7 g Total Carbohaydrate (6 g Sugars), 5 g Protein. <br>
-		**Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs:</tr>
+	<table class="table4" style="border-collapse: collapse;width: 100%;font-size:0.8em;">
+		<tr>
+		<td class="td">*Amount in cereal with 1/2 cup 1% milk contributes an additional 60 Calories (10 Calories from Fat), 1 g Total Fat (1 g Saturated Fat), 10 mg Cholesterol, 70 mg Sodium, 7 g Total Carbohaydrate (6 g Sugars), 5 g Protein. <br>
+		**Percent Daily Values are based on a 2,000 calorie diet. Your daily values may be higher or lower depending on your calorie needs:</td>
+		</tr>
 	</table>
-	<table class="table5" style="border-collapse: collapse;">
+	<table class="table5" style="border-collapse: collapse;width: 100%;font-size: 0.8em;">
 		<colgroup>
 			<col width="35%">
 			<col width="25%">
@@ -151,46 +153,46 @@
 			<td>2,500</td>
 		</tr>
 		<tr style="border-top:1px solid grey;">
-			<td>Total Fat</td>
+			<td class="td">Total Fat</td>
 			<td>Less than</td>
 			<td>65g</td>
 			<td>80g</td>		
 		</tr>
 		<tr>
-				<td id="test6">Saturated Fat</td>
+				<td class="td" id="test6">Saturated Fat</td>
 				<td>Less than</td>
 				<td>20g</td>
 				<td>25g</td>		
 			</tr>
 		<tr>
-				<td>Cholesterol</td>
+				<td class="td">Cholesterol</td>
 				<td>Less than</td>
 				<td>300mg</td>
 				<td>300mg</td>		
 			</tr>
 		<tr>
-				<td>Sodium</td>
+				<td class="td">Sodium</td>
 				<td>Less than</td>
 				<td>2,400mg</td>
 				<td>2,400mg</td>		
 			</tr>
 		<tr>
-				<td>Total Carbohaydrate</td>
+				<td class="td">Total Carbohaydrate</td>
 				<td></td>
 				<td>300g</td>
 				<td>375g</td>		
 			</tr>
 		<tr>
-				<td id="test7">Dietary Fiber</td>
+				<td class="td" id="test7">Dietary Fiber</td>
 				<td></td>
 				<td>25g</td>
 				<td>30g</td>		
 			</tr>
 	</table>
 	<hr>
-	<p>Calories per gram:</p>
-	<div>
-		<span>Fat9</span>
+	Calories per gram:
+	<div id="bottom">
+		<span>Fat 9</span>
 		<span>&#183;</span>
 		<span>Carbohydrate 4</span>
 		<span>&#183;</span>
