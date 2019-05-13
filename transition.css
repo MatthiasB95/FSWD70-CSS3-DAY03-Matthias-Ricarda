@@ -1,0 +1,20 @@
+[class*=box]{
+	color: yellow;
+	background: blue;
+
+}
+[class*=test]{
+	color: orange;
+	background: black;
+
+}
+[class*=cheat]{
+	color: pink;
+	background: gray;
+
+}
+.tutorials:hover{
+	background: red;
+	font-family: Arial;
+}
+
